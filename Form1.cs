@@ -6,7 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+/// <summary>
+/// create by btl
+/// create date 2019/8/27
+/// </summary>
 namespace TimeSpan
 {
     public partial class Form1 : Form
