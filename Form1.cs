@@ -235,6 +235,18 @@ namespace TimeSpan
             this.caldays();
         }
 
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            cbx_start_year.Text = "2018";
+            cbx_start_month.Text = "4";
+            cbx_start_days.Text = "7";
+        }
 
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            cbx_end_year.Text = DateTime.Now.Year.ToString();
+            cbx_end_month.Text = DateTime.Now.Month.ToString();
+            cbx_end_days.Text = DateTime.Now.Day.ToString();
+        }
     }
     }
